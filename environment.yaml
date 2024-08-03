@@ -1,0 +1,13 @@
+# environment.yml
+name: comfyui_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - requests
+  - pip
+  - pip:
+      - -r requirements.txt
